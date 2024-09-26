@@ -14,16 +14,15 @@ export default TopBar;
 const styles = StyleSheet.create({
   container: {
     borderRadius: 20,
-    width: '98%',
-    height: '10%',
-    alignItems: 'center',
-    justifyContent: 'center',
-    alignSelf: 'center',
-    marginTop: '7%',
-    backgroundColor: "#C8CBFE"
+    width: "98%",
+    height: "10%",
+    alignItems: "center",
+    justifyContent: "center",
+    alignSelf: "center",
+    marginTop: "7%",
   },
   title: {
-    color: '#f8fcff',
+    color: "#F0CA4A",
     fontWeight: 700,
     fontSize: 25,
   },

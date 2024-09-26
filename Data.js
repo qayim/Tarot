@@ -7,6 +7,8 @@ export const cards = [
   //   cardName: "",
   //   uprightPoints: [],
   //   reversedPoints: [],
+  //   upDesc: "",
+  //   revDesc: "",
   // },
   {
     id: 1,
@@ -29,6 +31,9 @@ export const cards = [
       "feeling unloved",
       "gloominess",
     ],
+    upDesc:
+      "True heart, joy, contentment, abode, nourishment, abundance, fertility, holy table, felicity.",
+    revDesc: "False heart, mutation, instability, revolution.",
   },
   {
     id: 2,
@@ -53,6 +58,9 @@ export const cards = [
       "bad communication",
       "withdrawal",
     ],
+    upDesc:
+      "Love, passion, friendship, affinity, union, concord, sexual relations. That which nature has sanctified.",
+    revDesc: "False love, folly, misunderstanding.",
   },
   {
     id: 3,
@@ -76,6 +84,9 @@ export const cards = [
       "solitude",
       "imbalanced social life",
     ],
+    upDesc:
+      "The conclusion of any matter. Plenty, perfection, merriment, happiness, victory, fulfillment, solace, healing.",
+    revDesc: "Expedition, dispatch, achievement, end.",
   },
   {
     id: 4,
@@ -99,6 +110,9 @@ export const cards = [
       "depression",
       "negativity",
     ],
+    upDesc:
+      "Weariness, disgust, aversion, imaginary vexations as if the wine of this world had caused satiety only. Another cup of wine, as if a fairy gift, is now offered to him, but he sees no consolation therein. This is also a card of blended pleasure.",
+    revDesc: "Novelty, omen, new instructions, new relations.",
   },
   {
     id: 5,
@@ -121,6 +135,9 @@ export const cards = [
       "contentment",
       "seeing positives",
     ],
+    upDesc:
+      "It is a card of loss, but something remains; three have been taken, but two are left. It is a card of inheritance, transmission, and patrimony. It may be a card of marriage, but not without bitterness or frustration.",
+    revDesc: "New, alliances, affinity, ancestry, return, false projects.",
   },
   {
     id: 6,
@@ -142,6 +159,9 @@ export const cards = [
       "leaving home",
       "independence",
     ],
+    upDesc:
+      "A card of memories and of the past. For example, reflecting on childhood, happiness, enjoyment, but coming rather from the past, things that have vanished. Another reading reverses this, suggesting new relations, new environment and new knowledge. ",
+    revDesc: "Renewal, the future, that which will come to pass presently.",
   },
   {
     id: 7,
@@ -166,6 +186,9 @@ export const cards = [
       "clarity",
       "making choices",
     ],
+    upDesc:
+      "Fairy favors, images of reflection, imagination, sentiment, things seen in the glass of contemplation, some attainment in these degrees but nothing permanent or substantial.",
+    revDesc: "Desire, will, determination, project.",
   },
   {
     id: 8,
@@ -187,6 +210,9 @@ export const cards = [
       "fear of change",
       "staying in bad situation",
     ],
+    upDesc:
+      "The card speaks for itself on the surface, but other readings are entirely antithetical, giving joy, mildness, timidity, honor, modesty. ",
+    revDesc: "Great joy, happiness, feasting.",
   },
   {
     id: 9,
@@ -210,6 +236,10 @@ export const cards = [
       "arrogance",
       "snobbery",
     ],
+    upDesc:
+      "Concord, contentment, physical bien-etre (well being); also victory, success, advantage, satisfaction for the Querent or person for whom the consultation is made.",
+    revDesc:
+      "Truth, loyalty, liberty. But the readings vary and include mistakes, imperfections, etc.",
   },
   {
     id: 10,
@@ -231,6 +261,9 @@ export const cards = [
       "disharmony",
       "isolation",
     ],
+    upDesc:
+      "Contentment, repose of the entire heart, the perfection of that state, if with several picture cards, a person who is taking charge of the Querent's interests. Also the town, village or country inhabited by the Querent. ",
+    revDesc: "Repose of the false heart, indignation, violence.",
   },
   {
     id: 11,
@@ -253,6 +286,9 @@ export const cards = [
       "escapism",
       "insecurity",
     ],
+    upDesc:
+      "Fair young man, one impelled to render service and with whom the Querent will be connected, a studious youth, news, message, application, reflection, meditation----also these things are directed to business. ",
+    revDesc: "Taste, inclination, attachment, sen action, deception, artifice.",
   },
   {
     id: 12,
@@ -277,6 +313,9 @@ export const cards = [
       "avoiding conflict",
       "vanity",
     ],
+    upDesc:
+      "Arrival, approach, sometimes that of a messenger, advances, proposition, demeanor, invitation, incitement.",
+    revDesc: "Trickery, artifice, subtlety, swindling, duplicity, fraud.",
   },
   {
     id: 13,
@@ -301,6 +340,10 @@ export const cards = [
       "dependence",
       "martyrdom",
     ],
+    upDesc:
+      "Good, fair woman, honest, devoted, who will do service to the Querent. Loving intelligence, and hence the gift of vision, success, happiness, pleasure, also wisdom, virtue. ",
+    revDesc:
+      "The accounts vary; good woman, otherwise, distinguished woman but one not to be trusted, perverse woman, vice, dis-honor, depravity.",
   },
   {
     id: 14,
@@ -324,6 +367,10 @@ export const cards = [
       "manipulative",
       "selfish",
     ],
+    upDesc:
+      "Fair man, man of business, law, or divinity, responsible, disposed to oblige the Querent. Also equity, art and science, including those who profess science, law and art, creative intelligence. ",
+    revDesc:
+      "Dishonest, double-d-ealing man, roguery, exaction, injustice, vice, scandal.",
   },
   {
     id: 15,
@@ -346,6 +393,9 @@ export const cards = [
       "hesitancy",
       "creative blocks",
     ],
+    upDesc:
+      "Creation, invention, enterprise, the powers which result in these, principle, beginning, source, birth, family, origin, the beginning of enterprises, according to another account, money, fortune, inheritance",
+    revDesc: "Fall, decadence, ruin, perdition, to perish, also, clouded joy",
   },
   {
     id: 16,
@@ -366,6 +416,9 @@ export const cards = [
       "playing it safe",
       "avoiding risk",
     ],
+    upDesc:
+      "Between the alternative readings there is no marriage possible, on the one hand, riches, fortune, magnificence. And on the other, physical suffering, disease, chagrin, sadness, mortification a globe. It looks like the malady, the mortifica-tion, the sadness of Alexander amidst the grandeur of this world's wealth. ",
+    revDesc: "Surprise, wonder, enchantment, emotion, trouble, fear.",
   },
   {
     id: 17,
@@ -388,6 +441,10 @@ export const cards = [
       "delays",
       "frustration",
     ],
+    upDesc:
+      "He symbolizes established strength, enterprise, effort, trade, discovery, commerce; those are his ships, bearing his merchandise, which are sailing over the sea. ",
+    revDesc:
+      "The end of troubles, suspension or end of adversity, disappointment, and toil.",
   },
   {
     id: 18,
@@ -412,6 +469,10 @@ export const cards = [
       "lack of roots",
       "home conflict",
     ],
+    upDesc:
+      "They are for once almost on the surface, country life, repose, concord, harmony, prosperity, peace, and the perfected work of these. ",
+    revDesc:
+      "The meaning remains unaltered, increase, felicity, beauty, embellishment.",
   },
   {
     id: 19,
@@ -436,6 +497,9 @@ export const cards = [
       "peace",
       "avoiding conflict",
     ],
+    upDesc:
+      "Imitation, for example, sham fight, the strenuous competition and struggle of the search after riches and fortune. Hence some attributions say that it is a card of gold, gain, opulence. ",
+    revDesc: "Trickery, contradiction, litigation, disputes.",
   },
   {
     id: 20,
@@ -458,6 +522,10 @@ export const cards = [
       "no rewards",
       "lack of achievement",
     ],
+    upDesc:
+      "The card has been so designed that it can cover several significations. On the surface, it is a victor triumphing, but it is also great news, such as might be carried in state by the King's courier. It is expectation crowned with its own desire, the crown of hope.",
+    revDesc:
+      "Apprehension, fear, as of a victorious enemy at the gate, treachery, disloyalty, as of gates being opened to the enemy.",
   },
   {
     id: 21,
@@ -477,6 +545,9 @@ export const cards = [
       "lack of self belief",
       "surrender",
     ],
+    upDesc:
+      "It is a card of valor, for on the surface, six are attacking one, who has, however, the vantage position. On the intellectual plane, it signifies discussion, wordy strife, in business, negotiations, war of trade, barter, com-petition. It is further a card of success, for the combatant is on the top and his enemies may be unable to reach him. ",
+    revDesc: "Perplexity, embarrassments, anxiety.",
   },
   {
     id: 22,
@@ -500,6 +571,10 @@ export const cards = [
       "hastiness",
       "being unprepared",
     ],
+    upDesc:
+      "Activity in undertakings, the path of such activity, swiftness, as that of an express messenger; great haste, great hope, speed towards an end which promises assured felicity; that which is on the move, also the arrows of love. ",
+    revDesc:
+      "Arrows of jealousy, internal dispute, stingings of conscience, quarrels.",
   },
   {
     id: 23,
@@ -522,6 +597,9 @@ export const cards = [
       "refusing compromise",
       "giving up",
     ],
+    upDesc:
+      "The card signifies strength in opposition. If attacked, he will meet the onslaught boldly. With this main significance there are all its possible adjuncts, including delay, suspension, adjournment. ",
+    revDesc: "Obstacles, adversity, calamity.",
   },
   {
     id: 24,
@@ -543,6 +621,9 @@ export const cards = [
       "collapse",
       "breakdown",
     ],
+    upDesc:
+      "A card of many significance, and some of the reading cannot be harmonized. I set aside that which connects it with honor and good faith. It is oppression simply, but it is also fortune, gain, any kind of success of these things. It is also a card of false-seeming, dis-guise, perfidy. The place which the figure is approaching may suffer from the rods that he carries. Success is stultified if The Nine of Swords follows, and if it is a question of a lawsuit, there will be certain loss.",
+    revDesc: "Contrarieties, difficulties, intrigues, and their analogies.",
   },
   {
     id: 25,
@@ -568,6 +649,10 @@ export const cards = [
       "unreliable",
       "distracted",
     ],
+    upDesc:
+      "Dark young man, he will bear favorable testimony concerning him. He is a dangerous rival, if followed by the Page of Cups. Has the chief qualities of his suit. ",
+    revDesc:
+      "Anecdotes, announcements, evil news. Also indecision and the instability which usually accompanies it.",
   },
   {
     id: 26,
@@ -592,6 +677,9 @@ export const cards = [
       "volatile",
       "domineering",
     ],
+    upDesc:
+      "Departure, absence, flight, emigration. A dark young man, friendly. Change of residence. ",
+    revDesc: "Rupture, division, interrup-tion, discord.",
   },
   {
     id: 27,
@@ -617,6 +705,10 @@ export const cards = [
       "temperamental",
       "bully",
     ],
+    upDesc:
+      "A dark woman or a countrywoman, friendly, chaste,loving, honorable. If the card beside her signifies a man, she is well disposed towards him; if a woman, she is interested in the Querent. Also, love of money.",
+    revDesc:
+      "Good, economical, obliging, serviceable. Also signifies opposition, jealousy, deceit, and infidelity.",
   },
   {
     id: 28,
@@ -641,6 +733,9 @@ export const cards = [
       "ineffective",
       "weak leader",
     ],
+    upDesc:
+      "Dark man, friendly, countryman, generally married, honest and conscientious. ",
+    revDesc: "Good, but severe; austere, yet tolerant.",
   },
   {
     id: 29,
@@ -665,6 +760,10 @@ export const cards = [
       "destruction",
       "brutality",
     ],
+    upDesc:
+      "Triumph, the excessive degree in everything, conquest, triumph of force. A card of great force, in love as well as in hatred. ",
+    revDesc:
+      "The same meanings, but the results are disastrous; another account says, conception, childbirth, augmentation, multiplicity.",
   },
   {
     id: 30,
@@ -686,6 +785,9 @@ export const cards = [
       "no right choice",
       "truth revealed",
     ],
+    upDesc:
+      "Conformity and the equipoise which it suggests, courage, friendship, affection, concord in a state of arms, intimacy. ",
+    revDesc: "Imposture, falsehood, duplicity, disloyalty.",
   },
   {
     id: 31,
@@ -710,6 +812,10 @@ export const cards = [
       "reconciliation",
       "repressing emotions",
     ],
+    upDesc:
+      "Removal, absence, delay, division, rupture, dispersion, and all that the design signifies naturally.",
+    revDesc:
+      "Mental alienation, error, loss, distraction, disorder, confusion.",
   },
   {
     id: 32,
@@ -733,6 +839,10 @@ export const cards = [
       "restlessness",
       "burnout",
     ],
+    upDesc:
+      "Vigilance, retreat, solitude, hermit's repose, exile, tomb and coffin. ",
+    revDesc:
+      "Wise administration, circumspection, economy, avarice, precaution, testament.",
   },
   {
     id: 33,
@@ -758,6 +868,8 @@ export const cards = [
       "remorse",
       "cutting losses",
     ],
+    upDesc: "Degradation, destruction, reversal, infamy, dishonor, loss. ",
+    revDesc: "The same, burial and obsequies.",
   },
   {
     id: 34,
@@ -777,6 +889,9 @@ export const cards = [
       "running away from problems",
       "trapped",
     ],
+    upDesc: "Journey by water, route, way, envoy, commissionary, expedient. ",
+    revDesc:
+      "Declaration, confession, pub-licity. One account says that it is a proposal of love.",
   },
   {
     id: 35,
@@ -799,6 +914,9 @@ export const cards = [
       "maliciousness",
       "truth revealed",
     ],
+    upDesc:
+      "Design, attempt, wish, hope, confidence, also quarreling. A plan that may fail, annoyance. ",
+    revDesc: "Good advice, counsel, nstru-ction, slander, babbling.",
   },
   {
     id: 36,
@@ -823,6 +941,10 @@ export const cards = [
       "empowered",
       "surrender",
     ],
+    upDesc:
+      "Bad news, violent chagrin, crisis, censure, power in trammels, conflict, calumny and sickness. ",
+    revDesc:
+      "Disquiet, difficulty, opposition, accident, treachery, the unforeseen, fatality.",
   },
   {
     id: 37,
@@ -847,6 +969,9 @@ export const cards = [
       "guilt",
       "mental health issues",
     ],
+    upDesc:
+      "Death, failure, miscarriage, delay, deception, disappointment, despair.",
+    revDesc: "Imprisonment, doubt, suspicion, reasonable fear, shame.",
   },
   {
     id: 38,
@@ -871,6 +996,10 @@ export const cards = [
       "despair",
       "relapse",
     ],
+    upDesc:
+      "Whatsoever is intimated by the design, also pain, affliction, tears, sadness, desolation. ",
+    revDesc:
+      "Advantage, profit, success, favor, but none of these are permanent. Also power and authority.",
   },
   {
     id: 39,
@@ -896,6 +1025,10 @@ export const cards = [
       "rude",
       "lack of planning",
     ],
+    upDesc:
+      "Authority, overseeing, secret service, vigilance, spying, examination, and the qualities thereto belonging. ",
+    revDesc:
+      "More evil side of these qualities, what is unforeseen, an unprepared state, sickness is also intimated.",
   },
   {
     id: 40,
@@ -922,6 +1055,9 @@ export const cards = [
       "ruthless",
       "arrogant",
     ],
+    upDesc:
+      "Skill, bravery, capacity, defense, address, enmity, wrath, war, destruction, opposition, resistance, ruin.",
+    revDesc: "Imprudence, incapacity, extravagance.",
   },
   {
     id: 41,
@@ -948,6 +1084,9 @@ export const cards = [
       "deceitful",
       "unforgiving",
     ],
+    upDesc:
+      "Widowhood, female sadness and embarrassment, absence, sterility, mourning, privation, separation. ",
+    revDesc: "Malice, bigotry, artifice, prudery, deceit.",
   },
   {
     id: 42,
@@ -974,6 +1113,10 @@ export const cards = [
       "ruthless",
       "dishonest",
     ],
+    upDesc:
+      "Whatsoever arises out of the idea of judgment and all its connections, power, command, authority, militant intelligence, law, offices of the crown, and so forth. ",
+    revDesc:
+      "Cruelty, evil intentions, perversity, barbarity, breach of faith.",
   },
   {
     id: 43,
@@ -997,6 +1140,9 @@ export const cards = [
       "stinginess",
       "bad investments",
     ],
+    upDesc:
+      "Perfect contentment, felicity, ecstasy, also speedy intelligence, gold. ",
+    revDesc: "The evil side of wealth, bad intelligence. Also great riches.",
   },
   {
     id: 44,
@@ -1018,6 +1164,10 @@ export const cards = [
       "chaos",
       "overextending",
     ],
+    upDesc:
+      "It is represented as a card of gaiety, recreation and its connection, which is the subject of the design. But it is also read as news and messages in writing, such as obstacles, agitation, trouble, embroilment. ",
+    revDesc:
+      "Enforced gaiety, simulated enjoyment, literal sense, handwriting, composition, letters of exchange.",
   },
   {
     id: 45,
@@ -1041,6 +1191,10 @@ export const cards = [
       "ego",
       "competition",
     ],
+    upDesc:
+      "Forte trade, trade, skilled labor. Usually, however, regarded as a card of nobility, aristocracy, renown, glory. ",
+    revDesc:
+      "Mediocrity in the work and otherwise, puerility, pettiness, weakness.",
   },
   {
     id: 46,
@@ -1069,6 +1223,9 @@ export const cards = [
       "financial insecurity",
       "reckless spending",
     ],
+    upDesc:
+      "The surety of possessions, cleaving to that which one has, gifts, legacy, inheritance. ",
+    revDesc: "Suspense, delay, opposition.",
   },
   {
     id: 47,
@@ -1093,6 +1250,9 @@ export const cards = [
       "forgiveness",
       "feeling welcomed",
     ],
+    upDesc:
+      "It foretells material trouble above all, whether in the form illustrated, that is, destitution, or otherwise. For some interpretations of readings, it is a card of love and lovers, wife, husband, friend, mistress, also concordance, affinities. These alternatives cannot be harmonized.",
+    revDesc: "Disorder, chaos, ruin, discord, profligacy.",
   },
   {
     id: 48,
@@ -1116,6 +1276,9 @@ export const cards = [
       "inequality",
       "extortion",
     ],
+    upDesc:
+      "Present, gifts, gratification. Another account says attention, vigilance, now is the accepted time, present prosperity, etc. ",
+    revDesc: "Desire, cupidity, envy, jealousy, illusion.",
   },
   {
     id: 49,
@@ -1142,6 +1305,9 @@ export const cards = [
       "impatience",
       "lack of reward",
     ],
+    upDesc:
+      "These are exceedingly contradictory, in the main, it is a card of money, business, barter, but one reading gives altercation, quarrel, and another innocence, ingenuity, purgation. ",
+    revDesc: "Anxiety about money.",
   },
   {
     id: 50,
@@ -1170,6 +1336,9 @@ export const cards = [
       "low skill",
       "dead-end job",
     ],
+    upDesc:
+      "Work, employment, commission, craftsmanship, skill in craft and business. ",
+    revDesc: "Voided ambition, vanity, cupidity, exaction, usury",
   },
   {
     id: 51,
@@ -1192,6 +1361,9 @@ export const cards = [
       "reckless spending",
       "superficiality",
     ],
+    upDesc:
+      "Prudence, safety, success, accomplishment, certitude, discernment. ",
+    revDesc: "Roguery, deception, voided project, bad faith.",
   },
   {
     id: 52,
@@ -1220,6 +1392,10 @@ export const cards = [
       "instability",
       "breaking traditions",
     ],
+    upDesc:
+      "Gain, riches, family matters, archives, extraction, the abode of a family. ",
+    revDesc:
+      "Chance, fatality, loss, robbery, games of hazard; sometimes gift, dowry, pension.",
   },
   {
     id: 53,
@@ -1249,6 +1425,9 @@ export const cards = [
       "missed chances",
       "poor prospects",
     ],
+    upDesc:
+      "Application, study, scholarship, reflection. Another reading says news, messages and the bringer thereof, allow rule, management. ",
+    revDesc: "Prodigality, dissipation, liberality, luxury, unfavorable news.",
   },
   {
     id: 54,
@@ -1277,6 +1456,9 @@ export const cards = [
       "gambler",
       "risky investments",
     ],
+    upDesc: "Utility, serviceableness, interest, rectitude, responsibility. ",
+    revDesc:
+      "Inertia, idleness, repose of that kind, stagnation, also discouragement, carelessness.",
   },
   {
     id: 55,
@@ -1307,6 +1489,8 @@ export const cards = [
       "self-absorbed",
       "envious",
     ],
+    upDesc: "Opulence, generosity, security, magnificence, liberty. ",
+    revDesc: "Evil, fear, suspicion, suspense, mistrust.",
   },
   {
     id: 56,
@@ -1337,6 +1521,9 @@ export const cards = [
       "exploitative",
       "possessive",
     ],
+    upDesc:
+      "Valor, realizing intelligence, business and normal intellectual aptitude, sometimes mathematical gifts and attainments of this kind, success in these paths.",
+    revDesc: "Vice, weakness, ugliness, perversity, corruption, peril.",
   },
   {
     id: 57,
@@ -1362,6 +1549,10 @@ export const cards = [
       "stale",
       "dull",
     ],
+    upDesc:
+      "Folly, mania, extravagance, intoxication, delirium, frenzy, bewrayment (betrayal)",
+    revDesc:
+      "Negligence, absence, distribution, carelessness, apathy, nullity, vanity",
   },
   {
     id: 58,
@@ -1385,6 +1576,9 @@ export const cards = [
       "illusion",
       "deception",
     ],
+    upDesc:
+      "Skill, diplomacy, address sickness, pain, loss, disaster, self-confidence, will the Querent himself (if male)",
+    revDesc: "Physician Magus, mental illness, disgrace, disquiet",
   },
   {
     id: 59,
@@ -1406,6 +1600,9 @@ export const cards = [
       "confusion",
       "cognitive dissonance",
     ],
+    upDesc:
+      "Secrets, mystery, the future as yet unrevealed, the women who interests the Querent (if male); the Querent (if male) silence, tenacity; wisdom, science",
+    revDesc: "Passion moral or physical enthusiasm, conceit, surface knowledge",
   },
   {
     id: 60,
@@ -1430,6 +1627,10 @@ export const cards = [
       "lack of growth",
       "lack of progress",
     ],
+    upDesc:
+      "Fruitfulness, initiative, action, long days, clandestine, the unknown, difficulty doubt, ignorance",
+    revDesc:
+      "Light, truth, the unraveling of involved matters, public rejoice, also, according to another reading, indecision",
   },
   {
     id: 61,
@@ -1454,6 +1655,10 @@ export const cards = [
       "lack of discipline",
       "recklessness",
     ],
+    upDesc:
+      "Stability, power, aid, protection, a great person, conviction, reason",
+    revDesc:
+      "Benevolence, compassion, credit, also confusion to enemies, obstruction, immaturity",
   },
   {
     id: 62,
@@ -1476,17 +1681,12 @@ export const cards = [
       "new methods",
       "ignorance",
     ],
+    upDesc:
+      "Marriage alliance, captivity, servitude, mercy and goodness, inspiration, the man to whom the Querent has recourse",
+    revDesc: "Society, good understanding, concord, over-kindness, weakness",
   },
   {
     id: 63,
-    cardType: "Major Arcana",
-    cardCategory: "Major",
-    cardName: "",
-    uprightPoints: [],
-    reversedPoints: [],
-  },
-  {
-    id: 64,
     cardType: "Major Arcana",
     cardCategory: "Major",
     cardName: "The Lovers",
@@ -1508,9 +1708,11 @@ export const cards = [
       "bad choices",
       "indecision",
     ],
+    upDesc: "Attraction, love, beauty, trials overcome",
+    revDesc: "Failure, foolish designs",
   },
   {
-    id: 65,
+    id: 64,
     cardType: "Major Arcana",
     cardCategory: "Major",
     cardName: "The Chariot",
@@ -1531,9 +1733,12 @@ export const cards = [
       "aggression",
       "obstacles",
     ],
+    upDesc:
+      "Succor, providence, also war, triumph, presumption, vengeance, trouble",
+    revDesc: "Riot, quarrel, dispute, litigation, defeat",
   },
   {
-    id: 66,
+    id: 65,
     cardType: "Major Arcana",
     cardCategory: "Major",
     cardName: "Strength",
@@ -1553,9 +1758,12 @@ export const cards = [
       "cowardice",
       "forcefulness",
     ],
+    upDesc: "Power, energy, action, courage, generosity",
+    revDesc:
+      "Abuse of power, despotism (exercise power in a cruel way), weakness, discord",
   },
   {
-    id: 67,
+    id: 66,
     cardType: "Major Arcana",
     cardCategory: "Major",
     cardName: "The Hermit",
@@ -1575,9 +1783,12 @@ export const cards = [
       "rejection",
       "returning to society",
     ],
+    upDesc:
+      "Prudence, also and especially treason, dissimulation, corruption, roguery",
+    revDesc: "Concealment, disguise, policy, fear, unreasoned caution",
   },
   {
-    id: 68,
+    id: 67,
     cardType: "Major Arcana",
     cardCategory: "Major",
     cardName: "Wheel of Fortune",
@@ -1597,9 +1808,11 @@ export const cards = [
       "unwelcome changes",
       "delays",
     ],
+    upDesc: "Destiny, fortune, success, luck, felicity",
+    revDesc: "Increase, abundance, unnecessary amount (superfluity)",
   },
   {
-    id: 69,
+    id: 68,
     cardType: "Major Arcana",
     cardCategory: "Major",
     cardName: "Justice",
@@ -1623,9 +1836,11 @@ export const cards = [
       "unfairness",
       "avoiding accountability",
     ],
+    upDesc: "Equity, rightness, probity, executive",
+    revDesc: "Law in all departments, bigotry, bais, excessive severity",
   },
   {
-    id: 70,
+    id: 69,
     cardType: "Major Arcana",
     cardCategory: "Major",
     cardName: "The Hanged Man",
@@ -1645,9 +1860,12 @@ export const cards = [
       "standstill",
       "apathy",
     ],
+    upDesc:
+      "Wisdom, trials, carefulness, discernment (making smart judgment), sacrifice, intuition, divination, prophecy",
+    revDesc: "Selfishness, the crowd, body politic",
   },
   {
-    id: 71,
+    id: 70,
     cardType: "Major Arcana",
     cardCategory: "Major",
     cardName: "Death",
@@ -1666,9 +1884,12 @@ export const cards = [
       "stagnancy",
       "decay",
     ],
+    upDesc: "End, mortality, destruction, corruption",
+    revDesc:
+      "Inertia, sleep, lethargy, petrification, somnambulism (sleep walking)",
   },
   {
-    id: 72,
+    id: 71,
     cardType: "Major Arcana",
     cardCategory: "Major",
     cardName: "Temperance",
@@ -1690,9 +1911,12 @@ export const cards = [
       "recklessness",
       "hastiness",
     ],
+    upDesc: "Economy, moderation, frugality, management, accommodation",
+    revDesc:
+      "Things connected with churches, religions, sects, the priesthood, also unfortunate combination, disunion, competing interests",
   },
   {
-    id: 73,
+    id: 72,
     cardType: "Major Arcana",
     cardCategory: "Major",
     cardName: "The Devil",
@@ -1713,9 +1937,12 @@ export const cards = [
       "reclaiming power",
       "reclaiming control",
     ],
+    upDesc:
+      "Ravage, violence, force, vehemence, extraordinary efforts, fatality, that which is predestined but not for this reason evil",
+    revDesc: "Evil fatality, weakness, pettiness, blindness",
   },
   {
-    id: 74,
+    id: 73,
     cardType: "Major Arcana",
     cardCategory: "Major",
     cardName: "The Tower",
@@ -1732,9 +1959,13 @@ export const cards = [
       "delaying the inevitable",
       "resisting change",
     ],
+    upDesc:
+      "Misery, distress, ruin, indigence, adversity, calamity, disgrace, deception",
+    revDesc:
+      "According to one account, the same in a lesser degree, also oppression, imprisonment, tyranny",
   },
   {
-    id: 75,
+    id: 74,
     cardType: "Major Arcana",
     cardCategory: "Major",
     cardName: "The Star",
@@ -1754,9 +1985,12 @@ export const cards = [
       "lack of faith",
       "despondent",
     ],
+    upDesc:
+      "Loss, theft, privation, abandonment, although another reading suggests hope and bright prospects in the future",
+    revDesc: "Arrogance, impotence, haughtiness",
   },
   {
-    id: 76,
+    id: 75,
     cardType: "Major Arcana",
     cardCategory: "Major",
     cardName: "The Moon",
@@ -1778,9 +2012,13 @@ export const cards = [
       "clarity",
       "understanding",
     ],
+    upDesc:
+      "Hidden enemies, danger, calumny, darkness, terror, deception, error",
+    revDesc:
+      "Instability, inconstancy (changeability), silence, lesser degrees of deception and error",
   },
   {
-    id: 77,
+    id: 76,
     cardType: "Major Arcana",
     cardCategory: "Major",
     cardName: "The Sun",
@@ -1801,9 +2039,11 @@ export const cards = [
       "unrealistic expectations",
       "conceitedness",
     ],
+    upDesc: "Material happiness, fortunate marriage, contentment",
+    revDesc: "Material happiness, fortunate marriage, contentment (but lesser)",
   },
   {
-    id: 78,
+    id: 77,
     cardType: "Major Arcana",
     cardCategory: "Major",
     cardName: "Judgement",
@@ -1821,9 +2061,12 @@ export const cards = [
       "failure to learn lessons",
       "self-loathing",
     ],
+    upDesc: "Change of position, renewal, outcome",
+    revDesc:
+      "Weakness, pusillanimity (lack of courage), simplicity, also deliberation, decision, sentence",
   },
   {
-    id: 79,
+    id: 78,
     cardType: "Major Arcana",
     cardCategory: "Major",
     cardName: "The World",
@@ -1841,5 +2084,8 @@ export const cards = [
       "feeling incomplete",
       "emptiness",
     ],
+    upDesc:
+      "Assured success, route, voyage, emigration, flight, change of place",
+    revDesc: "Inertia, fixity, stagnation, permanence",
   },
 ];
