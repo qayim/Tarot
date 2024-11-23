@@ -10,7 +10,6 @@ import TopBar from "../components/TopBar";
 import { cards } from "../Data";
 import TarotCard from "../components/TarotCard";
 import { useEffect, useState } from "react";
-import { generateResponse } from "../ChatGPTService";
 
 const FortuneScreen = () => {
   let fortuneCards = [];
@@ -90,14 +89,6 @@ const FortuneScreen = () => {
     console.log("Message: ", messages);
   }
 
-  const sendMessage = async () => {
-    if (!userInput) return;
-
-    setMessages((prevMessages) => [...prevMessages, `User: ${userInput}`]);
-    const botResponse = await generateResponse(userInput);
-    setMessages((prevMessages) => [...prevMessages, `ChatGPT: ${botResponse}`]);
-    setUserInput("");
-  };
 
   return (
     <View style={styles.container}>
@@ -132,6 +123,8 @@ const FortuneScreen = () => {
                           position={cardContent.position[itemData.index]}
                           uprightPoints={itemData.item.uprightPoints}
                           reversedPoints={itemData.item.reversedPoints}
+                          upDesc={itemData.item.upDesc}
+                          revDesc={itemData.item.revDesc}
                         />
                       </View>
                     </>

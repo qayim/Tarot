@@ -1,11 +1,11 @@
 import React, { Component } from "react";
-import { Text, StyleSheet, View } from "react-native";
+import { Text, StyleSheet, View, Pressable } from "react-native";
 
 const TopBar = (props) => {
   return (
-    <View style={styles.container}>
+    <Pressable onPress={props.onPress} style={styles.container}>
       <Text style={styles.title}> {props.title} </Text>
-    </View>
+    </Pressable>
   );
 };
 
@@ -23,7 +23,7 @@ const styles = StyleSheet.create({
   },
   title: {
     color: "#F0CA4A",
-    fontWeight: 700,
+    fontWeight: "700",
     fontSize: 25,
   },
 });

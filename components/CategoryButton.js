@@ -8,12 +8,14 @@ const CategoryButton = (props) => {
         style={
           props.title === "Fortune Telling"
             ? styles.containerFortune
-            : styles.container
+            : props.title === "Reading Aid" ? styles.containerReadingAid : styles.container
         }
       >
         <Text
           style={
-            props.title === "Fortune Telling" ? styles.textFortune : styles.text
+            props.title === "Fortune Telling"
+              ? styles.textFortune
+              : props.title === "Reading Aid" ? styles.textReadingAid : styles.text
           }
         >
           {" "}
@@ -31,7 +33,7 @@ const styles = StyleSheet.create({
     borderRadius: 20,
     borderWidth: 5,
     borderColor: "#EDBE28",
-    backgroundColor: '#000000',
+    backgroundColor: "#000000",
     padding: 30,
     marginVertical: 10,
     width: "90%",
@@ -60,5 +62,23 @@ const styles = StyleSheet.create({
     fontSize: 20,
     fontWeight: "bold",
     color: "#EAEAEA",
+  },
+
+  containerReadingAid: {
+    borderRadius: 20,
+    borderWidth: 5,
+    borderColor: "#EAEAEA",
+    backgroundColor: "#EAEAEA",
+    padding: 30,
+    marginVertical: 10,
+    width: "90%",
+    alignItems: "center",
+    justifyContent: "center",
+    alignSelf: "center",
+  },
+  textReadingAid: {
+    fontSize: 20,
+    fontWeight: "bold",
+    color: "#000000",
   },
 });

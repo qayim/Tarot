@@ -4,11 +4,39 @@ import {
   ScrollView,
   ImageBackground,
 } from "react-native";
+import React, { useContext } from "react";
 import { cards } from "../Data";
 import TopBar from "../components/TopBar";
 import CategoryButton from "../components/CategoryButton";
+import { FavoritesContext } from "../store/context/context-file";
 
 const MainScreen = ({ navigation }) => {
+  const favoriteCardsCtx = useContext(FavoritesContext);
+  const favoriteCardsIds = favoriteCardsCtx.ids;
+
+  console.log("favoriteCardsIds: ", favoriteCardsIds);
+
+
+  let favI = cards.map((card) => {
+    if (favoriteCardsIds.includes(card.id)) {
+      return card;
+    } else {
+      return;
+    }
+  });
+  
+  console.log("favI: ", favI.sort(
+    (a, b) => favoriteCardsIds.indexOf(a.id) - favoriteCardsIds.indexOf(b.id)
+  ))
+
+  favI = favI.sort(
+    (a, b) => favoriteCardsIds.indexOf(a.id) - favoriteCardsIds.indexOf(b.id)
+  );
+
+  
+
+//console.log("favII: " , favII)
+
   let cupsI = cards.map((card) => {
     if (card.cardCategory === "Cups") {
       return card;
@@ -45,6 +73,9 @@ const MainScreen = ({ navigation }) => {
     }
   });
 
+  let favs = favI.filter(function (element) {
+    return element !== undefined;
+  });
   let cups = cupsI.filter(function (element) {
     return element !== undefined;
   });
@@ -60,7 +91,12 @@ const MainScreen = ({ navigation }) => {
   let major = majorI.filter(function (element) {
     return element !== undefined;
   });
-
+function pressHandlerReadingAid() {
+  navigation.navigate("Card", {
+    category: "Reading Aid",
+    cards: favs,
+  });
+}
   function pressHandlerCups() {
     navigation.navigate("Card", {
       category: "Cups",
@@ -103,9 +139,9 @@ const MainScreen = ({ navigation }) => {
   // console.log("Major", major);
   return (
     <View style={styles.container}>
-      <ImageBackground source={require('../assets/background4.png')}>
-        <TopBar title="Destiny's Cards" />
-        <CategoryButton title="Fortune Telling" onPress={pressHandlerFortune} />
+      <ImageBackground source={require("../assets/background4.png")}>
+        <TopBar title="Destiny's Cards" onPress={pressHandlerFortune} />
+        <CategoryButton title="Reading Aid" onPress={pressHandlerReadingAid} />
         <ScrollView>
           <CategoryButton title="Cups" onPress={pressHandlerCups} />
           <CategoryButton title="Wands" onPress={pressHandlerWands} />

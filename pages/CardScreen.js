@@ -4,14 +4,19 @@ import {
   Text,
   FlatList,
   ImageBackground,
+  Pressable,
 } from "react-native";
+import { useContext } from "react";
 import TarotCard from "../components/TarotCard";
 import TopBar from "../components/TopBar";
+import { isEmptyObj } from "openai/core.mjs";
+
 
 const CardScreen = ({ route }) => {
+  
   const category = route.params.category;
   const cards = route.params.cards;
-  console.log("Cards: ", cards);
+  console.log("Cards cs: ", cards);
 
   return (
     <View style={styles.container}>
@@ -29,7 +34,7 @@ const CardScreen = ({ route }) => {
               renderItem={(itemData) => {
                 itemData.index;
                 return (
-                  <View style={{ flex: 1, margin: 5 }}>
+                  <Pressable style={{ flex: 1, marginVertical: 20 }}>
                     <TarotCard
                       id={itemData.item.id}
                       cardName={itemData.item.cardName}
@@ -37,8 +42,10 @@ const CardScreen = ({ route }) => {
                       category={itemData.item.cardCategory}
                       uprightPoints={itemData.item.uprightPoints}
                       reversedPoints={itemData.item.reversedPoints}
+                      upDesc={itemData.item.upDesc}
+                      revDesc={itemData.item.revDesc}
                     />
-                  </View>
+                  </Pressable>
                 );
               }}
             />
@@ -60,7 +67,7 @@ const styles = StyleSheet.create({
   },
   title: {
     fontSize: 40,
-    fontWeight: 700,
+    fontWeight: "700",
     color: "#A99479",
     textAlign: "center",
     marginTop: 50,
