@@ -1,5 +1,6 @@
-import { Link, useLocation, useParams } from 'react-router-dom';
+import { useLocation, useParams } from 'react-router-dom';
 import { cards as allCards } from '../data/cards';
+import BackButton from '../components/BackButton';
 import TopBar from '../components/TopBar';
 import TarotCard from '../components/TarotCard';
 
@@ -11,9 +12,8 @@ export default function CardScreen() {
   return (
     <main className="screen">
       <div className="screen-content">
-        <Link to="/" aria-label="Back to home">
-          <TopBar title={decodeURIComponent(category)} />
-        </Link>
+        <BackButton />
+        <TopBar title={decodeURIComponent(category)} />
         <div className="card-list">
           {cards.length === 0 ? (
             <p className="hint">

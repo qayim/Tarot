@@ -1,6 +1,6 @@
 import { useState } from 'react';
-import { Link } from 'react-router-dom';
 import { cards } from '../data/cards';
+import BackButton from '../components/BackButton';
 import TopBar from '../components/TopBar';
 import CategoryButton from '../components/CategoryButton';
 import TarotCard from '../components/TarotCard';
@@ -31,9 +31,8 @@ export default function FortuneScreen() {
   return (
     <main className="screen">
       <div className="screen-content">
-        <Link to="/" aria-label="Back to home">
-          <TopBar title="Fortune Telling" />
-        </Link>
+        <BackButton />
+        <TopBar title="Fortune Telling" />
         <CategoryButton title="Start" onClick={startReading} />
         <div className="card-list">
           {spread.map(({ card, position }) => (
